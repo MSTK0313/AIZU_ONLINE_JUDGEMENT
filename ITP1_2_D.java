@@ -15,7 +15,7 @@ class ITP1_2_D {
 
         String judgement = "No";
         if (r <= x && r <= y) {
-            if (x <= H-r && y <= H-r) {
+            if (x <= W-r && y <= H-r) {
                 judgement = "Yes";
             }
         }
